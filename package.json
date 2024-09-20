@@ -1,5 +1,5 @@
 {
-  "name": "node-activex-win32",
+  "name": "@slogivewd/winax-win32",
   "version": "1.0.0",
   "description": "Windows COM bindings",
   "dependencies": {},
