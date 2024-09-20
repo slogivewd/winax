@@ -1,45 +1,20 @@
 {
-  "name": "winax",
-  "version": "3.5.2",
+  "name": "@slogivewd/winax",
+  "version": "1.0.0",
   "description": "Windows COM bindings",
-  "homepage": "https://github.com/durs/node-activex",
-  "keywords": [
-    "OLE",
-    "COM",
-    "ActiveX",
-    "ActiveXObject",
-    "CreateObject",
-    "Variant",
-    "Dispatch",
-    "WSH",
-    "WMI",
-    "Excel",
-    "Word",
-    "WScript",
-    "ConnectObject",
-    "DisconnectObject"
-  ],
-  "author": {
-    "name": "Yuri Dursin",
-    "url": "https://github.com/durs",
-    "email": "yuri.dursin@gmail.com"
-  },
-  "contributors": [
-    "Yuri Dursin <yuri.dursin@gmail.com>",
-    "Somanuell",
-    "Daniel-Userlane",
-    "Alexey Grinevich <alexey.grinevich@inflectra.com>"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/durs/node-activex.git"
-  },
   "dependencies": {},
   "devDependencies": {},
   "engines": {
-    "node": ">=20.17.0",
-    "electron": ">=30.1.0"
+    "node": "20.17.0",
+    "electron": "30.1.0"
   },
-  "license": "MIT",
-  "main": "index.js"
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major"
+  }
 }
