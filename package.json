@@ -1,5 +1,5 @@
 {
-  "name": "@slogivewd/winax",
+  "name": "slogivewd/winax",
   "version": "1.0.0",
   "description": "Windows COM bindings",
   "dependencies": {},
