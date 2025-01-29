@@ -17,13 +17,14 @@ See also Electron Documentation: [Using Native Node Modules](https://electron.at
 |  v31.6.0 | v20.17.0 | v3.5.3 | v12.6 |     ✅     |
 |  v32.0.0 | v20.17.0 | v3.5.3 | v12.8 |     ❌     |
 |  v33.0.2 | v20.17.0 | v3.6.1 | v12.8 |     ✅     |
+|  v34.0.1 | v20.18.1 | v3.6.1 | v12.8 |     ✅     |
 
 # Tag
 
 ```bash
-git tag -a version -m "winax@version, electron@version"
+git tag -a $version -m "winax@version, electron@version"
 ```
 
 ```bash
-git push origin version
+git push origin $version
 ```

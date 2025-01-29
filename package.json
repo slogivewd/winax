@@ -5,14 +5,15 @@
   "dependencies": {},
   "devDependencies": {},
   "engines": {
-    "node": "20.17.0",
-    "electron": "33.0.2"
+    "node": "20.18.1",
+    "electron": "34.0.1"
   },
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
+    "build": "npm rebuild winax --runtime=electron --target=34.0.1 --dist-url=https://electronjs.org/headers --build-from-source",
     "patch": "npm version patch",
     "minor": "npm version minor",
     "major": "npm version major"
